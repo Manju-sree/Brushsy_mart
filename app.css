@@ -4,6 +4,32 @@
     width: 10rem;
 }
 
+.badge-btn {
+    background: none;
+    border: none;
+    color: var(--gray-color);
+    font-size: 1.59rem;
+    position: relative;
+}
+
+.badge-count {
+    align-items: center;
+    border: thin solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--white-color);
+    display: flex;
+    font-size: 1rem;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 0.59rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(60%, -30%);
+    width: 1.5rem;
+    background: var(--primary-color);
+}
+
 
 /* search bar */
 
@@ -172,7 +198,7 @@ p {
 
 .feat-title::after {
     content: '';
-    background: var(--primarybutton-color);
+    background: var(--primary-color);
     width: 6rem;
     height: 3px;
     border-radius: 5px;

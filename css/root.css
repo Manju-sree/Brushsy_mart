@@ -12,7 +12,7 @@
     --white-color: #fff;
     --light-white-color: #f5f5f6;
     --light-pink-color: #f7cbcb;
-    --yellow-color: hsl(51, 96%, 51%);
+    --yellow-color: rgb(250, 214, 10);
 }
 
 body {
