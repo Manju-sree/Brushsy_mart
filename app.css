@@ -12,6 +12,11 @@
     position: relative;
 }
 
+.badge-btn,
+.fa-heart {
+    color: var(--gray-color);
+}
+
 .badge-count {
     align-items: center;
     border: thin solid var(--primary-color);
@@ -223,7 +228,7 @@ h4 {
     font-size: 0.9rem;
 }
 
-.rating .fa {
+.rating {
     color: var(--yellow-color);
 }
 

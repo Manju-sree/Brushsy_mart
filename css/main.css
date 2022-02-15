@@ -1,3 +1,34 @@
 @import url("./root.css");
 @import url("/app.css");
 @import url("./products.css");
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-color);
+}
+
+.light-primary-color {
+    color: var(--light-primary-color);
+}
+
+.light-primary-bg-color {
+    background-color: var(--light-primary-color);
+}
+
+.dark-primary-color {
+    color: var(--dark-primary-color);
+}
+
+.dark-primary-bg-color {
+    background-color: var(--dark-primary-color);
+}
+
+.white-color {
+    color: var(--white-color);
+}
+
+.gray-bg-color {
+    background-color: var(--gray-color);
+}

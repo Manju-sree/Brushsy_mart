@@ -11,7 +11,8 @@
     />
     <script src="https://kit.fontawesome.com/8f33fad190.js" crossorigin="anonymous"></script>
     <!-- Sakhi UI Library -->
-    <link rel="stylesheet" href="https://sakhi-ui.netlify.app/Coomponents/component.css">
+    <link rel="stylesheet" href="https://sakhi-ui.netlify.app/Components/component.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
 </head>
@@ -49,7 +50,291 @@
         <img src="/assets/images/nav_icons/menu.png" alt="menu" class="menu-icon" onClick="menutoggle()">
     </div>
 
+    <!-- filter section -->
+    <div class="filter-container">
+        <!-- <div class="filter-row-wrapper"> -->
+        <div class="filter-grid-left">
+            <div class="position-fixed filter-space-around">
+                <div class="filter-titles">
+                    <button class="filter-btn link-no-style">FILTERS</button>
+                    <button class="clear-all-btn clear-link-deco link-no-style">CLEAR ALL</button>
+                </div>
+                <ul class="filter-section">
+                    <div class="filter-divider"></div>
+                    <li class="filter-subtitle">Price</li>
+                    <li><input type="range" min="1" max="100" value="50" class="range-color" /></li>
+                    <div class="filter-divider"></div>
+                    <li class="filter-subtitle">Sort by</li>
+                    <li><label for="radio-button" class="form-label">
+                            <input type="radio" name="sort" class="form-checkbox-field" value="LOW_TO_HIGH_PRICE">
+                            Price - Low to High
+                        </label>
+                    </li>
+                    <li><label for="radio-button" class="form-label">
+                            <input type="radio" class="form-checkbox-field" name="sort" value="HIGH_TO_LOW_PRICE">
+                            Price - High to low
+                        </label>
+                    </li>
+                    <div class="filter-divider"></div>
+                    <li class="filter-subtitle">Category</li>
+                    <li><label class="form-label">
+                            <input type="checkbox" class="form-checkbox-field">
+                            Foundation-brushes
+                        </label>
+                    </li>
+                    <li><label class="form-label">
+                            <input type="checkbox" class="form-checkbox-field">
+                            Eyeliner-brushes
+                        </label>
+                    </li>
+                    <li><label class="form-label">
+                            <input type="checkbox" class="form-checkbox-field">
+                            Concealer-brushes
+                        </label>
+                    </li>
+                    <li><label class="form-label">
+                            <input type="checkbox" class="form-checkbox-field">
+                            Blush-brushes
+                        </label>
+                    </li>
+                    <div class="filter-divider"></div>
+                    <li class="filter-subtitle">Ratings</li>
+                    <li>
+                        <label for="radio-button" class="form-label">
+                            <input type="radio" class="form-checkbox-field" name="sort">
+                            4 Stars & above
+                        </label>
+                    </li>
+                    <li><label for="radio-button" class="form-label">
+                            <input type="radio" class="form-checkbox-field" name="sort">
+                            3 Stars & above
+                        </label>
+                    </li>
+                    <li><label for="radio-button" class="form-label">
+                            <input type="radio" class="form-checkbox-field" name="sort">
+                            2 Stars & above
+                        </label>
+                    </li>
+                    <li><label for="radio-button" class="form-label">
+                            <input type="radio" class="form-checkbox-field" name="sort">
+                            1 Stars & above
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-grid-right grid-3-column-layout">
+            <!-- card with badge -->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/pow3.png" alt="product-image" class="img-responsive card-img">
+                    <span class="badge-on-card ">OFFER</span>
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title pos-rel">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
 
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter"> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-on-hover">
+                            <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- card without badge -->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title pos-rel">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter"> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-on-hover">
+                            <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- card with overlay-->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/blush5.png" alt="product-image" class="img-responsive card-img">
+                    <span class="badge-on-card gray-bg-color ">Out of stock</span>
+                </div>
+                <div class="text-overlay">
+                    <div class="text-overlay-size"></div>
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title disable-font pos-rel ">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter disable-font "> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text disable-font ">5<i class="fa fa-solid fa-star rating "></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-disabled">
+                            <a href="/pages/cart.html" class="link-no-style">Out of Stock</a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- card with badge -->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/pow5.png" alt="product-image" class="img-responsive card-img">
+                    <span class="badge-on-card ">OFFER</span>
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title pos-rel">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter"> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-on-hover">
+                            <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- card without badge -->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/eye1.png" alt="product-image" class="img-responsive card-img">
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title pos-rel">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter"> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-on-hover">
+                            <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- card with overlay-->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/found7.png" alt="product-image" class="img-responsive card-img">
+                    <span class="badge-on-card gray-bg-color ">Out of stock</span>
+                </div>
+                <div class="text-overlay">
+                    <div class="text-overlay-size"></div>
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title disable-font pos-rel ">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter disable-font "> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text disable-font ">5<i class="fa fa-solid fa-star rating "></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-disabled">
+                            <a href="/pages/cart.html" class="link-no-style">Out of Stock</a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- card without badge -->
+            <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+                <div class="image-container badge-container pos-rel ">
+                    <img src="./../assets/images/products/pow3.png" alt="product-image" class="img-responsive card-img">
+                </div>
+                <div class="card-text-container pos-rel flex-grow display-flex-column">
+                    <div class="text-container-title">
+                        <h6 class="product-title pos-rel">Blush Makeup Brush
+                            <button class="like-btn link-no-style">
+                                <span><i class="fas fa-heart wish-icon"></i></span>
+                            </button>
+                        </h6>
+
+                    </div>
+                    <div class="text-container-desc  flex-grow display-flex-column">
+                        <span class=" text-price-lighter"> Rs.1200
+                            <small class="discount-txt">(17% off)</small>
+                        </span>
+                        <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+                        </pre>
+                    </div>
+                    <div class="CTA-container">
+                        <button class="btn-outline btn-on-hover">
+                            <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- footer -->
     <div class="footer">
