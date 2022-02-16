@@ -2,6 +2,7 @@
 @import url("./../app.css");
 @import url("./products.css");
 @import url("./wishlist.css");
+@import url("./cart.css");
 .primary-color {
     color: var(--primary-color);
 }
