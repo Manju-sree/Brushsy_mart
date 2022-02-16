@@ -173,7 +173,13 @@ button.clear-all-btn {
 }
 
 
-/* media queries */
+/*footer */
+
+.footer-z-index {
+    position: relative;
+    z-index: 1;
+    bottom: 0;
+}
 
 
 /* media queries for menu */
