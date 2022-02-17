@@ -1,0 +1,103 @@
+.login-container {
+    padding: 2rem 3rem;
+    margin: 10rem auto;
+    width: 100%;
+    height: 28rem;
+    max-width: 35rem;
+    box-shadow: var(--box-shadow-login-signup-form);
+    font-family: var(--font-family-Georgia);
+}
+
+.login-form-title {
+    font-size: 1.5rem;
+    margin: 0.625rem 0;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.email-label {
+    align-self: start;
+    margin-left: 3rem;
+}
+
+.form-row,
+input {
+    align-items: center;
+}
+
+.form-row-pwd {
+    margin-left: 3rem;
+}
+
+.email-label-pwd {
+    margin-left: 0.1rem;
+}
+
+.input-box {
+    width: 80%;
+    padding: 0.5rem 2rem 0.5rem 1.5rem;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.password-eye-icon {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.eye-icon-container {
+    top: 0.8rem;
+    right: 6.5rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.input-checkbox {
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.margin-left {
+    margin-left: 0.5rem;
+}
+
+.forgot-pwd-style {
+    margin-left: 6rem;
+    color: var(--blue-link-color);
+    font-weight: 500;
+}
+
+.login-btn {
+    width: 80%;
+    padding: 0.5rem 2rem 0.5rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: var(--dark-primary-color);
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.new-acc-style {
+    color: var(--blue-link-color);
+    text-decoration: underline;
+}
