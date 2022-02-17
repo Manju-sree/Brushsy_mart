@@ -1,14 +1,13 @@
 .login-container {
     padding: 2rem 3rem;
     margin: 10rem auto;
-    width: 100%;
     height: 28rem;
     max-width: 35rem;
     box-shadow: var(--box-shadow-login-signup-form);
     font-family: var(--font-family-Georgia);
 }
 
-.login-form-title {
+.auth-form-title {
     font-size: 1.5rem;
     margin: 0.625rem 0;
     line-height: 1.2;
@@ -17,18 +16,14 @@
     padding-bottom: 1rem;
 }
 
-.form-container {
-    width: 100%;
-}
-
 .form-row {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    width: 100%;
+    /* width: 100%; */
 }
 
-.email-label {
+.label-style {
     align-self: start;
     margin-left: 3rem;
 }
@@ -38,11 +33,11 @@ input {
     align-items: center;
 }
 
-.form-row-pwd {
+.mr-lt-3 {
     margin-left: 3rem;
 }
 
-.email-label-pwd {
+.mr-label-pwd {
     margin-left: 0.1rem;
 }
 
@@ -55,13 +50,9 @@ input {
 }
 
 .password-eye-icon {
-    width: 100%;
+    /* width: 100%; */
     display: block;
     position: relative;
-}
-
-.pos-abs {
-    position: absolute;
 }
 
 .eye-icon-container {
@@ -77,7 +68,7 @@ input {
     font-weight: 500;
 }
 
-.margin-left {
+.mr-lt-p5 {
     margin-left: 0.5rem;
 }
 
@@ -87,7 +78,7 @@ input {
     font-weight: 500;
 }
 
-.login-btn {
+.auth-btn {
     width: 80%;
     padding: 0.5rem 2rem 0.5rem 1.5rem;
     text-align: center;
