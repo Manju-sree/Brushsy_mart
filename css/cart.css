@@ -16,6 +16,7 @@
 
 .border-sqr {
     border: 1px solid var(--cart-border-color);
+    border-radius: 25%;
 }
 
 .qty-btn-color,
@@ -70,13 +71,14 @@
     margin-bottom: 1rem;
     width: 100%;
     font-size: 0.875rem;
+    margin-top: 0.5rem;
 }
 
-.column-80-wd {
+.col-left-wd {
     width: 80%;
 }
 
-.column-20-wd {
+.col-right-wd {
     width: 20%;
 }
 
