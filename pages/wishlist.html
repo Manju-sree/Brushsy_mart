@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist page | Brushsy-mart | Online Shopping site for makeup brushes.</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/8f33fad190.js" crossorigin="anonymous"></script>
+    <!-- Sakhi UI Library -->
+    <link rel="stylesheet" href="https://sakhi-ui.netlify.app/Components/Card/card.css">
+    <link rel="stylesheet" href="https://sakhi-ui.netlify.app/Components/Image/image.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./../css/main.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="./../index.html"> <img src="/assets/images/nav_icons/logo.png" alt="logo" class="logo-img"></a>
+        </div>
+        <div class="search-bar">
+            <button class="search-bar-btn link-no-style">
+                <i class="fa fa-search"></i>
+            </button>
+            <input class="search-bar-input" type="text" placeholder="Type to search" value="">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="/pages/signin.html">Login</a></li>
+                <li><a href="/pages/products.html">Products</a></li>
+                <li>
+                    <a href="/pages/wishlist.html" class="badge-btn">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge-count">6</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pages/cart.html" class="badge-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge-count">3</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <img src="/assets/images/nav_icons/menu.png" alt="menu" class="menu-icon" onClick="menutoggle()">
+    </div>
+
+    <!-- Wishlist products-->
+    <h1 class="wishlist-title">My Wishlist <span class="wishlist-subtitle">(6 items)</span></h1>
+
+    <!-- card with dismiss -->
+
+    <div class="wishlist-card-container">
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+        <!-- card with dismiss-->
+        <div class="card-vertical pos-rel card-container flex-items display-flex-column card-vertical-shadow">
+            <button type="button" class="btn-close"></button>
+            <div class="image-container  pos-rel ">
+                <img src="./../assets/images/products/blush4.png" alt="product-image" class="img-responsive card-img">
+            </div>
+            <div class="card-text-container pos-rel flex-grow display-flex-column">
+                <div class="text-container-title">
+                    <h6 class="product-title pos-rel">Blush Makeup Brush
+                        <button class="like-btn link-no-style">
+                    <span><i class="fas fa-heart wished-icon"></i></span>
+                </button>
+                    </h6>
+
+                </div>
+                <div class="text-container-desc  flex-grow display-flex-column">
+                    <span class=" text-price-lighter"> Rs.1200
+                <small class="discount-txt">(17% off)</small>
+            </span>
+                    <pre class="rating-text">5<i class="fa fa-solid fa-star rating"></i> |15   
+            </pre>
+                </div>
+                <div class="CTA-container">
+                    <button class="btn-outline btn-on-hover">
+                <a href="/pages/cart.html" class="link-no-style">Add to Cart</a>
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space-divider"></div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row-container">
+                <div class="footer-col-1">
+                    <h3>Follow me</h3>
+                    <ul class="quick-links">
+                        <li><a href="#" class="link">Twitter</a></li>
+                        <li><a href="https://github.com/Manju-sree/Brushsy_mart" class="link">Github</a></li>
+                        <li><a href="#" class="link">LinkedIn</a></li>
+                        <li><a href="#" class="link">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Quick links</h3>
+                    <ul class="quick-links">
+                        <li><a href="./index.html" class="link">Home</a></li>
+                        <li><a href="./pages/products.html" class="link">Products</a></li>
+                        <li><a href="./pages/cart.html" class="link">My Cart</a></li>
+                        <li><a href="./pages/wishlist.html" class="link">My Wishlist</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="madeby">Made with
+                <span class="white-color">&lt;/&gt;</span> by Manjushree</p>
+        </div>
+    </div>
+    <!-- js for toggle menu -->
+    <script src="./app.js"></script>
+</body>
+
+
+</html>

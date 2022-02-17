@@ -261,8 +261,8 @@ h4 {
     background: var(--semilight-gray-color);
     font-size: 0.9rem;
     padding: 1rem;
-    position: relative;
-    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer h3 {
