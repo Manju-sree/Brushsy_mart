@@ -55,22 +55,22 @@
         <form action="auth-form" class="wd-100-pc display-flex-column">
             <ul class="form-row wd-100-pc display-flex-column">
                 <label for="Email address" class="label-style star-required-field">Email address</label>
-                <input type="text" name="username" placeholder="username@gmail.com" class="input-box" required>
+                <input type="email" name="email" placeholder="username@gmail.com" id="Email address" class="input-box" required />
             </ul>
             <ul class="form-row wd-100-pc mr-lt-3 display-flex-column">
                 <label for="password" class="label-style mr-label-pwd star-required-field">Password</label>
                 <span class="password-eye-icon wd-100-pc pos-rel">
-                    <input type="password" name="username" placeholder="**************" class="input-box " required/>
-                <button class="card-btn eye-icon-container pos-abs" >
-                <i class="fas fa-eye-slash qty-btn-color"></i>
-            </button>
-            </span>
+                    <input type="password" name="password" placeholder="**************" id="password" class="input-box" required />
+                    <button class="card-btn eye-icon-container pos-abs">
+                        <i class="fas fa-eye-slash qty-btn-color"></i>
+                    </button>
+                </span>
             </ul>
             <ul class="input-checkbox">
-                <label class="form-label label-style">
-                <input type="checkbox" class="form-checkbox-field ">
-                <span class="mr-lt-p5">Remember me <span class="forgot-pwd-style"> Forgot Password?</span></span>           
-            </label>
+                <label for="checkbox" class="form-label label-style">
+                    <input type="checkbox" id="checkbox" class="form-checkbox-field ">
+                    <span class="mr-lt-p5">Remember me <span class="forgot-pwd-style"> Forgot Password?</span></span>
+                </label>
             </ul>
             <div class="form-row wd-100-pc display-flex-column">
                 <button class="auth-btn ">
@@ -79,7 +79,7 @@
             </div>
             <ul class="form-row wd-100-pc display-flex-column">
                 <span>Not a member?
-                    <a href="./signup.html" class="new-acc-style">Create New Account </a>     
+                    <a href="./signup.html" class="new-acc-style">Create New Account </a>
                 </span>
             </ul>
         </form>
