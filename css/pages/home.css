@@ -312,20 +312,8 @@ ul {
     font-weight: 600;
 }
 
-.link::after {
-    background: var(--light-pink-color);
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: absolute;
-    transition: width 0.3s, left 0.3s;
-    width: 0;
-}
-
-.link:hover::after {
-    left: 0;
-    width: 100%;
+.link:hover {
+    cursor: pointer;
 }
 
 
