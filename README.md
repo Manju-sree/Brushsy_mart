@@ -22,6 +22,13 @@ Here are the links for each P0 screens in E-commerce site.
 - Sign-Up (https://brushsy-mart.netlify.app/pages/signup.html)
 
 ---
-Quick walkthrough for P0-screens in E-commerce
 
-(/assets/gifs/brushy_mart_p0_screens.gif)
+<div align="center">
+
+Quick walkthrough for P0-screens in E-commerce.
+
+</div>
+
+![brushy_mart_p0_screens](/assets/gifs/brushy_mart_p0_screens.gif)
+
+---
