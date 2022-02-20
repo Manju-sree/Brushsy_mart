@@ -5,6 +5,7 @@
 @import url("./pages/cart.css");
 @import url("./pages/login.css");
 @import url("./pages/signup.css");
+@import url("./pages/logout.css");
 .primary-color {
     color: var(--primary-color);
 }
