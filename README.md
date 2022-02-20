@@ -20,6 +20,7 @@ Here are the links for each P0 screens in E-commerce site.
 - Wishlist Management (https://brushsy-mart.netlify.app/pages/wishlist.html)
 - Login (https://brushsy-mart.netlify.app/pages/login)
 - Sign-Up (https://brushsy-mart.netlify.app/pages/signup.html)
+- Logout (https://brushsy-mart.netlify.app/pages/logout.html)
 
 ---
 
