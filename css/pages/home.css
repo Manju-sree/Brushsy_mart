@@ -370,3 +370,135 @@ ul {
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 412px) {
+    .header,
+    .row-container {
+        margin-top: 16rem;
+    }
+    .container-col-2,
+    .container-col-3,
+    .container-col-4 {
+        flex-basis: 100%;
+    }
+    #MenuItems {
+        display: block;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .logo {
+        width: 22rem;
+    }
+    .search-bar {
+        width: 18rem;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header,
+    .row-container {
+        margin-top: 14rem;
+    }
+    .container-col-2,
+    .container-col-3,
+    .container-col-4 {
+        flex-basis: 100%;
+    }
+    #MenuItems {
+        display: block;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .logo {
+        width: 22rem;
+    }
+    .search-bar {
+        width: 18rem;
+        margin-left: 0rem;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header,
+    .row-container {
+        margin-top: 12rem;
+    }
+    .container-col-2,
+    .container-col-3,
+    .container-col-4 {
+        flex-basis: 100%;
+    }
+    #MenuItems {
+        display: block;
+        margin-top: 4rem;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: 18rem;
+    }
+    .logo {
+        width: 22rem;
+    }
+    .search-bar {
+        width: 20rem;
+        margin-left: 0rem;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .header,
+    .row-container {
+        margin-top: 14rem;
+    }
+    .container-col-2,
+    p {
+        font-size: 0.5rem;
+        word-wrap: break-word;
+    }
+    .container-col-2 h1 {
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    .container-col-2 img {
+        max-width: 70%;
+        padding: 0rem;
+    }
+    #MenuItems {
+        display: block;
+        margin-top: 4rem;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: 10rem;
+    }
+    .search-bar {
+        width: 20rem;
+        margin-left: 0rem;
+    }
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

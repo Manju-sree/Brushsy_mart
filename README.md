@@ -14,7 +14,7 @@
 ## E-commerce : P0 Screens 
 
 Here are the links for each P0 screens in E-commerce site.
-- Home (https://brushsy-mart.netlify.app/)
+- Home (https://brushsy-mart.netlify.app/pages/home.html)
 - Products (https://brushsy-mart.netlify.app/pages/products.html)
 - Cart Management (https://brushsy-mart.netlify.app/pages/cart.html)
 - Wishlist Management (https://brushsy-mart.netlify.app/pages/wishlist.html)
